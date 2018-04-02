@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Mina|Ubuntu" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Vat Calculator</title>
+  </head>
+  <body>
+    <h1>Tax Calculator</h1>
+      <p>Use the below calculator to find your total amount inclusive of Tax!</p>
+      <div>
+        <fieldset>
+          <legend>12% VAT</legend>
+          <form>
+            <p>
+              <label>Cost:</label>
+              <input type="text" id="txtcost" value="0">
+              <input type="button" id="btnequals" value="=" onclick="final()">
+              <input type="text" id=outputTotal value="0" readonly=true>
+            </p>
+          </form>
+        </fieldset>
+        <fieldset>
+          <legend>15% VAT</legend>
+          <form>
+            <p>
+              <label>Cost:</label>
+              <input type="text" id="txtcost2" value="0">
+              <input type="button" id="btnequals2" value="=" onclick="final2()">
+              <input type="text" id=outputTotal2 value="0" readonly=true>
+            </p>
+          </form>
+        </fieldset>
+      </div>
+  </body>
+</html>

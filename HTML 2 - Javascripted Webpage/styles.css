@@ -1,0 +1,51 @@
+p {
+  font-family: "Ubuntu", sans-serif;
+  display: flex; justify-content: center; align-items: center;
+  font-size: 30px
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+  font-size: 100px;
+  display: flex; justify-content: center; align-items: center;
+  text-decoration-line: underline;
+}
+h2 {
+  font-family: "Mina", sans-serif;
+}
+html {
+  background: linear-gradient(to right, #43c6ac, #f8ffae) repeat scroll 0% 0%;
+}
+form {
+  font-family: "Mina", sans-serif;
+  display: flex; justify-content: center; align-items: center;
+}
+label {
+  font-family: "Mina", sans-serif;
+  display: flex; justify-content: center; align-items: center;
+}
+legend {
+  font-family: "Mina", sans-serif;
+  display: flex; justify-content: center; align-items: center;
+  font-size: 30px
+}
+textarea {
+  width: 100px;
+  height: 20px;
+  font-family: "Mina", sans-serif;
+}
+input {
+  font-family: "Mina", sans-serif;
+}
+#txtcost {
+  font-size: 20px;
+}
+#txtcost2 {
+  font-size: 20px;
+}
+#outputTotal {
+  font-size: 20px;
+}
+#outputTotal2 {
+  font-size: 20px;
+}
